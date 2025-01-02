@@ -143,3 +143,12 @@ if(!found){
 cout<<"\tItem Not Available!"<<endl;
 }
 out.close();
+in.close();
+remove("D:/Bill.txt");
+rename("D:/Bill Temp.txt", "D:/Bill.txt");
+}
+else if(choice ==2){
+close = true;
+cout<<"\tCounting Total Bill"<<endl;
+}
+Sleep(3000);
