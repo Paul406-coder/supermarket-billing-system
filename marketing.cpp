@@ -181,3 +181,10 @@ system("cls");
 addItem(b);	
 Sleep(3000);
 }
+
+else if(val==2){
+printBill();
+}
+
+else if(val==3){
+	system("cls");
