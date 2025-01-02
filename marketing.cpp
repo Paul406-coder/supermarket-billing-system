@@ -123,3 +123,14 @@ if(item ==itemName){
 found = true;
 if(quant <= itemQuant){
 int amount = itemRate * quant;
+cout<<"\t Item | Rate | Quantity | Amount"<<endl;
+cout<<"\t"<<itemName<<"\t "<<itemRate<<"\t "<<quant<<"\t "<<amount<<endl;
+int newQuant = itemQuant - quant;
+itemQuant = newQuant;
+count +=amount;
+
+out<<"\t"<<itemName<<" : "<<itemRate<<" : "<<itemQuant<<endl;
+}
+else{
+cout<<"\tSorry, "<<item<<" Ended!"<<endl;
+}
