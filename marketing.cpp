@@ -162,3 +162,8 @@ Sleep(5000);
 
 int main(){
 Bill b;
+
+bool exit = false;
+while(!exit){
+system("cls");
+int val;
