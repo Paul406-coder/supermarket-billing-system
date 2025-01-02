@@ -74,3 +74,13 @@ out.close();
 cout<<"\tItem Added Successfuly"<<endl;
 Sleep(3000);
 }
+}
+
+else if(choice == 2){
+	system("cls");
+close = true;
+cout<<"\tBack To Main Menu!"<<endl;
+Sleep(3000);
+}
+}
+}
