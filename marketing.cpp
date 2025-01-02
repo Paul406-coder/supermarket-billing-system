@@ -37,9 +37,19 @@ int getQuant(){
 
 
 };
-
 addItem(Bill b){
 bool close = false;
 while(!close){
 	int choice;
 cout<<"\t1.Add."<<endl;
+cout<<"\t2.close."<<endl;
+cout<<"\tEnter Choice: ";
+cin>>choice;
+
+if(choice==1){
+	system("cls");
+string item;
+int rate, quant;
+
+cout<<"\tEnter Item Name: ";
+cin>>item;
