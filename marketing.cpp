@@ -175,3 +175,9 @@ cout<<"\t\t2.Print Bill."<<endl;
 cout<<"\t\t3.Exit."<<endl;
 cout<<"\t\tEnter Choice: ";
 cin>>val;
+
+if(val==1){
+system("cls");
+addItem(b);	
+Sleep(3000);
+}
