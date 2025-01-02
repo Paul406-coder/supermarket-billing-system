@@ -167,3 +167,11 @@ bool exit = false;
 while(!exit){
 system("cls");
 int val;
+
+cout<<"\tWelcome To Super Market Billing System"<<endl;
+cout<<"\t**************************************"<<endl;
+cout<<"\t\t1.Add Item."<<endl;
+cout<<"\t\t2.Print Bill."<<endl;
+cout<<"\t\t3.Exit."<<endl;
+cout<<"\t\tEnter Choice: ";
+cin>>val;
