@@ -17,3 +17,11 @@ public:
  
 void setRate(int rate){
  Rate = rate;
+ }
+
+void setQuant(int quant){
+ Quantity = quant;
+}
+
+string getItem(){
+return Item;
