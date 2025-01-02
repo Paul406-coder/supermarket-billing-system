@@ -152,3 +152,13 @@ close = true;
 cout<<"\tCounting Total Bill"<<endl;
 }
 Sleep(3000);
+}
+system("cls");
+cout<<endl<<endl;
+cout<<"\t Total Bill ----------------- : "<<count<<endl<<endl;
+cout<<"\tThanks For Shopping!"<<endl;
+Sleep(5000);
+}
+
+int main(){
+Bill b;
