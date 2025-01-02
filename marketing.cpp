@@ -34,3 +34,12 @@ int getRate(){
 int getQuant(){
  return Quantity;
 }
+
+
+};
+
+addItem(Bill b){
+bool close = false;
+while(!close){
+	int choice;
+cout<<"\t1.Add."<<endl;
