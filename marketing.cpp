@@ -105,3 +105,14 @@ cin>>item;
 cout<<"\tEnter Quantity: ";
 cin>>quant;
 
+ifstream in("D:/Bill.txt");
+ofstream out("D:/Bill Temp.txt");
+
+string line;
+bool found = false;
+
+while(getline(in, line)){
+stringstream ss;
+ss<<line;
+string itemName;
+int itemRate, itemQuant;
