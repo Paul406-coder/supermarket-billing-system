@@ -64,3 +64,13 @@ cin>>quant;
 b.setQuant(quant);
 
 ofstream out("D:/Bill.txt", ios::app);
+if(!out){
+	cout<<"\tError: File Can't Open!"<<endl;
+}
+else{
+out<<"\t"<<b.getItem()<<" : "<<b.getRate()<<" : "<<b.getQuant()<<endl<<endl;
+}
+out.close();
+cout<<"\tItem Added Successfuly"<<endl;
+Sleep(3000);
+}
