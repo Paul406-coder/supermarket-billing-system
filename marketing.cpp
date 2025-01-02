@@ -25,3 +25,12 @@ void setQuant(int quant){
 
 string getItem(){
 return Item;
+}
+
+int getRate(){
+ return Rate;
+}
+
+int getQuant(){
+ return Quantity;
+}
