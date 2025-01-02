@@ -84,3 +84,14 @@ Sleep(3000);
 }
 }
 }
+
+printBill(){
+	system("cls");
+int count = 0;
+bool close = false;
+while(!close){
+system("cls");
+int choice;
+cout<<"\t1.Add Bill."<<endl;
+cout<<"\t2.Close Session."<<endl;
+cout<<"\tEnter Choice: ";
