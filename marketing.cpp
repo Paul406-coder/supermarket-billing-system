@@ -53,3 +53,14 @@ int rate, quant;
 
 cout<<"\tEnter Item Name: ";
 cin>>item;
+b.setItem(item);
+
+cout<<"\tEnter Rate Of Item: ";
+cin>>rate;
+b.setRate(rate);
+
+cout<<"\tEnter Quantity Of Item: ";
+cin>>quant;
+b.setQuant(quant);
+
+ofstream out("D:/Bill.txt", ios::app);
