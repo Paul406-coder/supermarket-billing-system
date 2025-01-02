@@ -134,3 +134,12 @@ out<<"\t"<<itemName<<" : "<<itemRate<<" : "<<itemQuant<<endl;
 else{
 cout<<"\tSorry, "<<item<<" Ended!"<<endl;
 }
+}
+else{
+out<<line<<endl;
+}	
+}
+if(!found){
+cout<<"\tItem Not Available!"<<endl;
+}
+out.close();
