@@ -188,3 +188,9 @@ printBill();
 
 else if(val==3){
 	system("cls");
+    exit = true;
+cout<<"\tGood Luck!"<<endl;
+Sleep(3000);
+}	
+}
+}
