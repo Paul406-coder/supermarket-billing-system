@@ -116,3 +116,10 @@ stringstream ss;
 ss<<line;
 string itemName;
 int itemRate, itemQuant;
+char delimiter;
+ss>>itemName>>delimiter>>itemRate>>delimiter>>itemQuant;
+
+if(item ==itemName){
+found = true;
+if(quant <= itemQuant){
+int amount = itemRate * quant;
